@@ -46,3 +46,24 @@ function subtractTwoNumbers(num1, num2) {
 
 var difference = subtractTwoNumbers(10, 7);
 console.log(difference);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var circumference = getCircleCircumference(4);
+console.log(circumference);
+
+function getFullName(firstName, lastName) {
+  return firstName + lastName;
+}
+
+var fullName = getFullName('AxlJon', ' Dela Cruz');
+console.log(fullName);
+
+function cube(number) {
+  return (number * number * number);
+}
+
+var numCubed = cube(3);
+console.log(numCubed);
