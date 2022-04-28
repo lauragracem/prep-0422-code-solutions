@@ -32,3 +32,17 @@ function addAndMultiplyBy5(num1, num2) {
 
 var answer = addAndMultiplyBy5(3, 5);
 console.log(answer);
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+
+var divide = multiplyAndDivideBy5(5, 5);
+console.log(divide);
+
+function subtractTwoNumbers(num1, num2) {
+  return (num1 - num2);
+}
+
+var difference = subtractTwoNumbers(10, 7);
+console.log(difference);
