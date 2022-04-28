@@ -18,3 +18,17 @@ function convertHoursToMinutes(hours) {
 
 var conversion = convertHoursToMinutes(3);
 console.log(conversion);
+
+function getGreeting(name) {
+  return 'Hello ' + name;
+}
+
+var greeting = getGreeting('world!');
+console.log(greeting);
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var answer = addAndMultiplyBy5(3, 5);
+console.log(answer);
